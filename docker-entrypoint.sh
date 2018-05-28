@@ -29,6 +29,6 @@ if [ "$1" = 'sfs2x' ]; then
     cd ${DATADIR}${EXEPATH}
 
     echo 'Start smartfox shell'
-    
+    exec "sfs2x-service start"
 
 fi
