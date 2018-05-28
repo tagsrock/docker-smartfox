@@ -31,4 +31,4 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 8080 9933 9933/udp 8787
 
-CMD ["sfs2x"]
+CMD ["sfs2x-service"]
